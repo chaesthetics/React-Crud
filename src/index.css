@@ -1,13 +1,58 @@
 body {
   margin: 0;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.myTable{
+  display: block;
+  width: 70%;
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:80px;
+
+
+
+}
+
+.addme{
+  margin-top: 20px;
+}
+
+#root{
+  
+  width: screen;
+  height: 660px;
+  background-color: white;
+}
+
+.Footer{
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+}
+
+.addButtona{
+  width: 160px;
+  display: flex;
+  font-weight: 800;
+  font-size: large;
+  margin-bottom: 15px;
+}
+
+
